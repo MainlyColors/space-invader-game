@@ -1,0 +1,24 @@
+{
+  "name": "space-invader-ts-project",
+  "version": "1.0.0",
+  "description": "Creating a canvas based space invaders to practive typescript",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "typescript",
+    "game",
+    "HTML5",
+    "canvas"
+  ],
+  "author": "Ryan Mahara",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "typescript": "^4.5.4"
+  }
+}
