@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quattrocento', serif;
+}
+
+body {
+  color: #d1d5db;
+  background-color: #1f2937;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-top: 6.25rem;
+}
+
+canvas {
+  margin-top: 2rem;
+  width: 800px;
+  height: 600px;
+  background-color: #000;
+}
+
+.btn-container {
+  margin-top: 1rem;
+  width: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-btn,
+.redo-btn {
+  height: 36px;
+  padding: 0.1rem;
+  background-color: #195de6;
+  color: #fff;
+  border: solid #195de6 0.125rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-btn {
+  font-size: 1.5rem;
+  /* line-height: 1.675rem; */
+  width: 6rem;
+}
+
+.redo-btn svg {
+  display: block;
+}
+.play-btn:hover,
+.redo-btn:hover {
+  background-color: #2e6deb;
+  border-color: #2e6deb;
+}
+
+.play-btn:active,
+.redo-btn:active {
+  background-color: #134fc6;
+  border-color: #134fc6;
+}
+
+.play-btn:focus,
+.redo-btn:focus {
+  outline: 0.125rem solid #08c;
+  outline-offset: 0.1875rem;
+  background-color: #2e6deb;
+  border-color: #2e6deb;
+}
